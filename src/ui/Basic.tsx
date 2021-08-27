@@ -1,7 +1,9 @@
 export default function Basic(){
     return(
-        <div className={'h-[230px] p-[30px] bg-blue-50 flex grid gap-0 hover:bg-indigo-100 text-3xl sm:pb-4 bg-blue-400 '}>
-            hi from basic
+        <div className={'flex justify-center items-center h-screen w-11/12 mx-auto xl:w-[1200px]'}>
+            <div className={`bg-red-700 w-20 h-20 text-white p-3`}>
+                hi from basic
+            </div>
         </div>
     )
 }
