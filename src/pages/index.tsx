@@ -1,7 +1,6 @@
-import type {NextPage} from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Basic from "~/ui/Basic";
+import type {NextPage} from 'next';
+import Head from 'next/head';
+import App from "../ui/natours/App";
 
 const Home: NextPage = () => {
     return (
@@ -9,9 +8,13 @@ const Home: NextPage = () => {
             <Head>
                 <title>Css Yard</title>
                 <meta name='description' content='a yard for practicing advance css'/>
-                <link rel='icon' href='/favicon.ico'/>
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+                      rel="stylesheet"/>
+                <link rel='icon' href='/natours-img/favicon.png'/>
             </Head>
-            <Basic/>
+            <App/>
         </div>
     )
 }
