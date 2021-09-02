@@ -9,7 +9,7 @@ export default function Header() {
         clipPath: 'polygon(0 0, 100% 0, 100% 75vh, 0 100%)',
     };
 
-    const styleOfA = 'transition-all duration-200 transform  hover:-translate-y-2 rounded-full uppercase py-[15px] px-[40px] inline-block bg-white text-[#777] relative active:-translate-y-1 hover:shadow-light active:shadow-lessLight after:inline-block after:h-full after:w-full after:rounded-full after:absolute after:bg-white after:top-0 after:left-0 after:-z-1 after:transform hover:after:scale-x-140 hover:after:scale-y-160 hover:after:opacity-0 hover:after:transition-all hover:after:duration-400 animate-moveInBottom'
+    const styleOfA = 'text-[1.6rem] transition-all duration-200 transform  hover:-translate-y-2 rounded-full uppercase py-[1.5rem] px-[4rem] inline-block bg-white text-[#777] relative active:-translate-y-1 hover:shadow-light active:shadow-lessLight after:inline-block after:h-full after:w-full after:rounded-full after:absolute after:bg-white after:top-0 after:left-0 after:-z-1 after:transform hover:after:scale-x-140 hover:after:scale-y-160 hover:after:opacity-0 hover:after:transition-all hover:after:duration-400 animate-moveInBottom'
 
     return (
         <div style={style}
@@ -18,15 +18,15 @@ export default function Header() {
                 <Image src={heroPattern} alt='header image' layout={"fill"} objectFit="cover"/>
             </div>
 
-            <div className='absolute top-[40px] left-[40px] h-[35px] w-[70px]'>
+            <div className='absolute top-[4rem] left-[4rem] h-[3.5rem] w-[7rem]'>
                 <Image src={logo} alt='logo'/>
             </div>
 
             <div style={{backfaceVisibility: 'hidden'}}
                  className='absolute top-[40%] left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center'>
-                <h1 className='text-gray-100 uppercase mb-[60px]'>
-                    <span className='animate-fadeRight block tracking-[35px] text-[60px] font-normal'>outdoors</span>
-                    <span className='animate-fadeLeft block tracking-[17.4px] text-[20px] font-bold'>is where life happens</span>
+                <h1 className='text-gray-100 uppercase mb-[6rem]'>
+                    <span className='animate-fadeRight block tracking-[3.5rem] text-[6rem] font-normal'>outdoors</span>
+                    <span className='animate-fadeLeft block tracking-[1.75rem] text-[2rem] font-bold'>is where life happens</span>
                 </h1>
                 <a href="#"
                    style={{animationFillMode: 'backwards'}}

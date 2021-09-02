@@ -12,11 +12,11 @@ module.exports = {
                 '-1': '-1',
             },
             boxShadow: {
-                light: '0 10px 20px rgba(0,0,0,.2)',
-                lessLight: '0 5px 10px rgba(0,0,0,.2)'
+                light: '0 1rem 2rem rgba(0,0,0,.2)',
+                lessLight: '0 .5rem 1rem rgba(0,0,0,.2)'
             },
             translate: {
-                '0.75': '3px'
+                '0.75': '.3rem'
             },
             fontFamily: {
                 'lato': ['lato']
@@ -28,17 +28,17 @@ module.exports = {
             },
             keyframes: {
                 fadeRight: {
-                    '0%': {opacity: '0', transform: 'translateX(-100px)'},
-                    '80%': {transform: 'translateX(20px)'},
+                    '0%': {opacity: '0', transform: 'translateX(-10rem)'},
+                    '80%': {transform: 'translateX(1rem)'},
                     '100%': {opacity: '1', transform: 'translate(0)'},
                 },
                 fadeLeft: {
-                    '0%': {opacity: '0', transform: 'translateX(100px)'},
-                    '80%': {transform: 'translateX(-20px)'},
+                    '0%': {opacity: '0', transform: 'translateX(10rem)'},
+                    '80%': {transform: 'translateX(-1rem)'},
                     '100%': {opacity: '1', transform: 'translate(0)'},
                 },
                 moveInBottom: {
-                    '0%': {opacity: '0', transform: 'translateY(30px)'},
+                    '0%': {opacity: '0', transform: 'translateY(3rem)'},
                     '100%': {opacity: '1', transform: 'translate(0)'},
                 },
             }

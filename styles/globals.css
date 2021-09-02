@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    @apply text-[62.5%];
+}
+
+
 body{
-    @apply font-lato text-[#777] font-normal leading-[1.7];
+    @apply font-lato text-[#777] font-normal leading-[1.7] ;
 }
