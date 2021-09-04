@@ -4,6 +4,11 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            colors: {
+                'primary': '#55c57a',
+                'primary-light': '#7ed56f',
+                'primary-dark': '#28b485',
+            },
             scale: {
                 '140': '1.4',
                 '160': '1.6'
@@ -13,7 +18,8 @@ module.exports = {
             },
             boxShadow: {
                 light: '0 1rem 2rem rgba(0,0,0,.2)',
-                lessLight: '0 .5rem 1rem rgba(0,0,0,.2)'
+                lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
+
             },
             translate: {
                 '0.75': '.3rem'
