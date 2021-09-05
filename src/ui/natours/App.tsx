@@ -1,5 +1,5 @@
-import Header from "./Header";
-import About from "./About";
+import Header from "./containers/Header";
+import About from "./containers/About";
 
 
 export default function App() {

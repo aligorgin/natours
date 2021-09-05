@@ -15,6 +15,10 @@
         backface-visibility: hidden;
     }
 
+    .animate-fill-backwards {
+        animation-fill-mode: backwards;
+    }
+
 }
 
 html {
