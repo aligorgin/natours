@@ -4,6 +4,9 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            outline:{
+                xl:['1.5rem solid #55c57a','2rem']
+            },
             colors: {
                 'primary': '#55c57a',
                 'primary-light': '#7ed56f',
@@ -19,7 +22,8 @@ module.exports = {
             boxShadow: {
                 light: '0 1rem 2rem rgba(0,0,0,.2)',
                 lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
-
+                semiDark: '0 1.5rem 4rem rgba(0,0,0,.2)',
+                dark: '0 2.5rem 4rem rgba(0,0,0,.5)'
             },
             translate: {
                 '0.75': '.3rem'
@@ -53,5 +57,7 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/aspect-ratio'),
+    ],
 }

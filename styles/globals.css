@@ -3,18 +3,20 @@
 @tailwind utilities;
 
 @layer utilities {
-    .text-shadow-xl{
+    .text-shadow-xl {
         text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .2);
     }
 
-    .clip-path-br{
+    .clip-path-br {
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     }
 
+    /*for fixing transform issue*/
     .back-face-hidden {
         backface-visibility: hidden;
     }
 
+    /*for fixing showing animation before delay*/
     .animate-fill-backwards {
         animation-fill-mode: backwards;
     }
@@ -28,4 +30,9 @@ html {
 
 body {
     @apply font-lato text-[#777] font-normal leading-[1.7] ;
+}
+
+/*non tailwind sudo class (:non and even how) ,its a cool trick btw */
+.composition:hover .composition__photo:not(:hover){
+    transform: scale(.93);
 }

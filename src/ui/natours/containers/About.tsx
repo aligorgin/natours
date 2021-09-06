@@ -2,6 +2,11 @@ import HeadingTerritory from "../components/HeadingTerritory";
 import Paragraph from "../components/Paragraph";
 import AboutWords from "../contents/AboutWords";
 import HeaderHoverAnimate from "../components/HeaderHoverAnimate";
+import ButtonSecondary from "../components/ButtonSecondary";
+import nat1 from '../../../../public/natours-img/nat-1-large.jpg';
+import nat2 from '../../../../public/natours-img/nat-2-large.jpg';
+import nat3 from '../../../../public/natours-img/nat-3-large.jpg';
+import Image from "next/image";
 
 export default function About() {
 
@@ -12,7 +17,7 @@ export default function About() {
             </div>
 
             <div className='max-w-[114rem] mx-auto'>
-                <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-2 gap-20'>
                     <div>
                         <HeadingTerritory text={AboutWords.headingTerritory1}/>
                         <Paragraph
@@ -25,14 +30,32 @@ export default function About() {
                             text={AboutWords.p2}
                         />
 
-                        <a href="#"
-                           className='text-[1.6rem] text-primary inline-block border-b-[1px] border-solid border-primary p-[3px] transition-all duration-200
-                                       transform hover:bg-primary hover:text-white hover:shadow-light hover:translate-y-[-2px] active:shadow-lessLight active:translate-y-0'
-                        >
-                            Learn more &rarr;
+                        <a href="#">
+                            <ButtonSecondary text={'Learn more'}/>
                         </a>
                     </div>
-                    <div>someimg</div>
+
+                    <div>
+                        <div className='relative composition'>
+                            <div
+                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 left-0 top-[-2rem]
+                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
+                                <Image src={nat1} alt='photo 2' layout='responsive'/>
+                            </div>
+
+                            <div
+                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 right-0 top-[2rem]
+                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
+                                <Image src={nat2} alt='photo 2' layout='responsive'/>
+                            </div>
+                            <div
+                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 left-[20%] top-[10rem]
+                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
+                                <Image src={nat3} alt='photo 2' layout='responsive'/>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
