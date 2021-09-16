@@ -7,8 +7,8 @@ import Button from "../components/Button";
 export default function Header() {
 
     return (
-        <header
-            className='clip-path-br relative h-[95vh] bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)]'>
+        <header className='clip-path-br relative h-[95vh] bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)]'>
+
             <div className='absolute w-full h-full opacity-20'>
                 <Image src={heroPattern} alt='header image' layout={"fill"} objectFit="cover"/>
             </div>

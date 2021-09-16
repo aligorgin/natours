@@ -1,5 +1,6 @@
 import Header from "./containers/Header";
 import About from "./containers/About";
+import Features from "./containers/Features";
 
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
                 <Header/>
                 <main>
                     <About/>
+                    <Features/>
                 </main>
             </div>
     )

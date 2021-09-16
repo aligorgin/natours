@@ -23,6 +23,7 @@ module.exports = {
                 light: '0 1rem 2rem rgba(0,0,0,.2)',
                 lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
                 semiDark: '0 1.5rem 4rem rgba(0,0,0,.2)',
+                semiDarkLow: '0 1.5rem 4rem rgba(0,0,0,.15)',
                 dark: '0 2.5rem 4rem rgba(0,0,0,.5)'
             },
             translate: {

@@ -1,6 +1,6 @@
 import HeadingTerritory from "../components/HeadingTerritory";
 import Paragraph from "../components/Paragraph";
-import AboutWords from "../contents/AboutWords";
+import Words from "../contents/Words";
 import HeaderHoverAnimate from "../components/HeaderHoverAnimate";
 import ButtonSecondary from "../components/ButtonSecondary";
 import nat1 from '../../../../public/natours-img/nat-1-large.jpg';
@@ -11,23 +11,23 @@ import Image from "next/image";
 export default function About() {
 
     return (
-        <section className='bg-gray-100 py-[25rem] mt-[-25vh] px-0 '>
+        <section className='bg-gray-100 py-[30rem] mt-[-25vh] px-0 '>
             <div className='text-center mb-[8rem]'>
-                <HeaderHoverAnimate text={AboutWords.header}/>
+                <HeaderHoverAnimate text={Words.header}/>
             </div>
 
             <div className='max-w-[114rem] mx-auto'>
                 <div className='grid grid-cols-2 gap-20'>
                     <div>
-                        <HeadingTerritory text={AboutWords.headingTerritory1}/>
+                        <HeadingTerritory text={Words.headingTerritory1}/>
                         <Paragraph
-                            text={AboutWords.p1}
+                            text={Words.p1}
                         />
 
-                        <HeadingTerritory text={AboutWords.headingTerritory2}/>
+                        <HeadingTerritory text={Words.headingTerritory2}/>
                         <Paragraph
                             isLastOne={true}
-                            text={AboutWords.p2}
+                            text={Words.p2}
                         />
 
                         <a href="#">

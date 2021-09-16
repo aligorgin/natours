@@ -33,6 +33,6 @@ body {
 }
 
 /*non tailwind sudo class (:non and even how) ,its a cool trick btw */
-.composition:hover .composition__photo:not(:hover){
+.composition:hover .composition__photo:not(:hover) {
     transform: scale(.93);
 }
