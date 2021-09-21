@@ -10,7 +10,7 @@ export default function Header() {
         <header className='clip-path-br relative h-[95vh] bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)]'>
 
             <div className='absolute w-full h-full opacity-20'>
-                <Image src={heroPattern} alt='header image' layout={"fill"} objectFit="cover"/>
+                <Image src={heroPattern} alt='header image' layout="fill" objectFit="cover"/>
             </div>
 
             <div className='absolute top-[4rem] left-[4rem] h-[3.5rem] w-[7rem]'>
@@ -24,7 +24,7 @@ export default function Header() {
                     <span className='animate-fadeLeft block tracking-[1.75rem] text-[2rem] font-bold'>is where life happens</span>
                 </h1>
                 <a href="#">
-                    <Button text={'discover our tours'} isAnimated={true}/>
+                    <Button textColor='text-[#777]' color='bg-white' text={'discover our tours'} isAnimated={true}/>
                 </a>
             </div>
 

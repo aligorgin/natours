@@ -11,6 +11,10 @@ module.exports = {
                 'primary': '#55c57a',
                 'primary-light': '#7ed56f',
                 'primary-dark': '#28b485',
+                'secondary-light':'#ffb900',
+                'secondary-dark':'#ff7730',
+                'tertiary-light':'#2998ff',
+                'tertiary-dark':'#5643fa',
             },
             scale: {
                 '140': '1.4',

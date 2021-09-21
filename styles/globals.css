@@ -11,6 +11,10 @@
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     }
 
+    .clip-path-br-85{
+        clip-path: polygon(0 0, 100% 0 , 100% 85%,0 100%);
+    }
+
     /*for fixing transform issue*/
     .back-face-hidden {
         backface-visibility: hidden;
@@ -35,4 +39,22 @@ body {
 /*non tailwind sudo class (:non and even how) ,its a cool trick btw */
 .composition:hover .composition__photo:not(:hover) {
     transform: scale(.93);
+}
+
+/*rotate y tours cards cause tailwind dosen't has rotate y*/
+.tours-rotate {
+    perspective:150rem;
+    -moz-perspective: 150rem;
+}
+
+.tours-rotate:hover .tours-rotate__card__front{
+    transform: rotateY(-180deg);
+}
+
+.tours-rotate__card__back{
+    transform: rotateY(180deg);
+}
+
+.tours-rotate:hover .tours-rotate__card__back{
+    transform: rotateY(0);
 }

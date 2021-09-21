@@ -1,6 +1,7 @@
 import Header from "./containers/Header";
 import About from "./containers/About";
 import Features from "./containers/Features";
+import Tours from "./containers/Tours";
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
                 <main>
                     <About/>
                     <Features/>
+                    <Tours/>
                 </main>
             </div>
     )
