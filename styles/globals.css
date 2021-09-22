@@ -25,6 +25,14 @@
         animation-fill-mode: backwards;
     }
 
+    .shape-outside-circle{
+        shape-outside: circle(50% at 50% 50%);
+    }
+
+    .clip-path-circle {
+        clip-path: circle(50% at 50% 50%);
+    }
+
 }
 
 html {

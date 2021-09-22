@@ -28,7 +28,8 @@ module.exports = {
                 lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
                 semiDark: '0 1.5rem 4rem rgba(0,0,0,.2)',
                 semiDarkLow: '0 1.5rem 4rem rgba(0,0,0,.15)',
-                dark: '0 2.5rem 4rem rgba(0,0,0,.5)'
+                dark: '0 2.5rem 4rem rgba(0,0,0,.5)',
+                super: '0 3rem 6rem rgba(0,0,0,.1)'
             },
             translate: {
                 '0.75': '.3rem'
