@@ -60,7 +60,7 @@ export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, 
                         <div className='text-[1.4rem] uppercase'>Only</div>
                         <div className='text-[6rem] font-thin'>${price}</div>
                     </div>
-                    <Button textColor={'[#777]'} color={'white'} text={'Book now!'}/>
+                    <Button colorAfter={'after:bg-white'} textColor={'text-[#777]'} color={'bg-white'} text={'Book now!'}/>
                 </div>
             </div>
         </div>

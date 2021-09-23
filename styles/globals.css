@@ -55,12 +55,14 @@ body {
     -moz-perspective: 150rem;
 }
 
-.tours-rotate:hover .tours-rotate__card__front{
-    transform: rotateY(-180deg);
-}
-
 .tours-rotate__card__back{
     transform: rotateY(180deg);
+}
+
+
+/*todo : fix these with group */
+.tours-rotate:hover .tours-rotate__card__front{
+    transform: rotateY(-180deg);
 }
 
 .tours-rotate:hover .tours-rotate__card__back{

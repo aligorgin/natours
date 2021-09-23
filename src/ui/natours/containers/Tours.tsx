@@ -59,7 +59,7 @@ export default function Tours() {
                 </div>
 
                 <div className='mt-[10rem] text-center'>
-                    <Button textColor={'white'} color='primary' text={'Discover all tours'}/>
+                    <Button colorAfter={'after:bg-primary'} textColor={'text-white'} color='bg-primary' text={'Discover all tours'}/>
                 </div>
 
 
