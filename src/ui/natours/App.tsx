@@ -3,6 +3,7 @@ import About from "./containers/About";
 import Features from "./containers/Features";
 import Tours from "./containers/Tours";
 import Stories from "./containers/Stories";
+import Booking from "./containers/Booking";
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
                 <Features/>
                 <Tours/>
                 <Stories/>
+                <Booking/>
             </main>
         </div>
     )

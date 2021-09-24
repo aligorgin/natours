@@ -15,6 +15,10 @@
         clip-path: polygon(0 0, 100% 0 , 100% 85%,0 100%);
     }
 
+    .clip-path-b{
+        clip-path: polygon(0 0 ,100% 0 ,85% 100%,0 100%);
+    }
+
     /*for fixing transform issue*/
     .back-face-hidden {
         backface-visibility: hidden;
