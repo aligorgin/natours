@@ -6,7 +6,15 @@ import ButtonSecondary from "../components/ButtonSecondary";
 export default function Stories() {
     return (
         <>
-            <section className='py-[15rem] bg-gray-100'>
+            <section className='py-[15rem] relative'>
+
+                <div className='absolute top-0 left-0 w-full h-full -z-1 opacity-20 overflow-hidden'>
+                    <video src={require('../../../../public/natours-img/video.mp4')} autoPlay muted loop
+                           className='h-full w-full object-cover '>
+                        Your browser is not supported!
+                    </video>
+                </div>
+
                 <div className='mb-[8rem] text-center'>
                     <HeaderHoverAnimate text={'we make people genuinely happy'}/>
                 </div>

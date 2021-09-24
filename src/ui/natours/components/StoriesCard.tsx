@@ -12,7 +12,7 @@ interface Props {
 }
 export default function StoriesCard({header,img,writerLast,writerName,text}:Props){
     return(
-        <div className={`${img===8 ? 'mb-32' :''} group w-3/4 mx-auto shadow-super bg-white rounded-[3px] p-[6rem] pl-[9rem] text-[1.6rem] skew-x-[-12deg]`}>
+        <div className={`${img===8 ? 'mb-32' :''} group w-3/4 mx-auto shadow-super bg-white bg-opacity-60 rounded-[3px] p-[6rem] pl-[9rem] text-[1.6rem] skew-x-[-12deg]`}>
             <div className='w-[15rem] h-[15rem] relative flex justify-center items-center shape-outside-circle float-left clip-path-circle translate-x-[-3rem] skew-x-[12deg]'>
                 {img=== 8 && <Image src={nat8} alt='nature photo' layout='fill' objectFit={'cover'} className='transition-all duration-500 scale-140 group-hover:scale-100 group-hover:blur-[3px] group-hover:brightness-75'/>}
                 {img=== 9 && <Image src={nat9} alt='nature photo' layout='fill' objectFit={'cover'} className='transition-all duration-500 scale-140 group-hover:scale-100 group-hover:blur-[3px] group-hover:brightness-75'/>}
