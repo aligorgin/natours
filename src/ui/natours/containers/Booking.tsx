@@ -1,6 +1,6 @@
 import nat10 from '../../../../public/natours-img/nat-10.jpg';
 import Image from "next/image";
-import HeaderHoverAnimate from "../components/HeaderHoverAnimate";
+import Form from "../components/Form";
 
 export default function Booking() {
     return (
@@ -11,23 +11,7 @@ export default function Booking() {
                          className='h-[50rem] overflow-hidden rounded-[3px] shadow-semiDark relative'>
                         <div className='w-[55%] h-full bg-white absolute z-10 bg-opacity-90 clip-path-b'>
                             <div className='p-[6rem]'>
-                                <form action="#" className=''>
-
-                                    <div className='mb-[4rem]'>
-                                        <HeaderHoverAnimate text={'Start booking now'}/>
-                                    </div>
-
-                                    <div>
-                                        <input type="text" placeholder='Full name' id='name' required/>
-                                        <label htmlFor="name">Full name</label>
-                                    </div>
-                                    
-                                    <div>
-                                        <input type="email" placeholder='Email address' id='email' required/>
-                                        <label htmlFor="email">Email address</label>
-                                    </div>
-
-                                </form>
+                                <Form/>
                             </div>
                         </div>
                         <Image src={nat10} layout='responsive' alt='nature image' objectFit='cover'

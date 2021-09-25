@@ -64,11 +64,19 @@ body {
 }
 
 
-/*todo : fix these with group */
+/*cause tailwind doesnt has rotate y or x*/
 .tours-rotate:hover .tours-rotate__card__front{
     transform: rotateY(-180deg);
 }
 
 .tours-rotate:hover .tours-rotate__card__back{
     transform: rotateY(0);
+}
+
+
+/*a complex selector*/
+.form_input:placeholder-shown + .form_label{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
 }
