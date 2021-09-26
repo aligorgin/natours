@@ -4,6 +4,7 @@ import Features from "./containers/Features";
 import Tours from "./containers/Tours";
 import Stories from "./containers/Stories";
 import Booking from "./containers/Booking";
+import Footer from "./containers/Footer";
 
 
 export default function App() {
@@ -17,6 +18,9 @@ export default function App() {
                 <Stories/>
                 <Booking/>
             </main>
+            <footer>
+                <Footer/>
+            </footer>
         </div>
     )
 

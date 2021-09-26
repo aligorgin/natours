@@ -80,3 +80,7 @@ body {
     visibility: hidden;
     transform: translateY(-4rem);
 }
+
+.radio-input:checked ~ .radio-label .radio-button::after{
+    opacity: 1;
+}
