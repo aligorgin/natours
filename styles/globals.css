@@ -37,6 +37,10 @@
         clip-path: circle(50% at 50% 50%);
     }
 
+    .radial-gradient-green {
+        background-image: radial-gradient(#7ed56f,#28b485);
+    }
+
 }
 
 html {
