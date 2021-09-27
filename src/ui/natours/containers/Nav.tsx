@@ -8,8 +8,8 @@ export default function Nav() {
 
     return (
         <div>
-            <div onClick={()=>setClose((prevState => !prevState))}
-                className={clsx('bg-white h-[7rem] w-[7rem] fixed top-[6rem] right-[6rem] rounded-full z-50')}>
+            <div onClick={() => setClose((prevState => !prevState))}
+                 className={clsx('bg-white h-[7rem] w-[7rem] fixed top-[6rem] right-[6rem] rounded-full z-50')}>
             </div>
             <div
                 onClick={() => setClose((prevState => !prevState))}

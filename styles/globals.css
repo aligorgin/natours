@@ -93,6 +93,7 @@ body {
 .nav-text-hover {
     background-image: linear-gradient(120deg, transparent 0, transparent 50%, white 50%);
 }
+
 .nav-text-hover:hover {
     background-position: 100%;
 }
