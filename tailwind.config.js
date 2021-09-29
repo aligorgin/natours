@@ -4,6 +4,10 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            rotate:{
+              '135':'135deg',
+              '-135':'-135deg'
+            },
             outline:{
                 xl:['1.5rem solid #55c57a','2rem']
             },
@@ -25,6 +29,7 @@ module.exports = {
             },
             boxShadow: {
                 light: '0 1rem 2rem rgba(0,0,0,.2)',
+                moreLight:'0 1rem 3rem rgba(0,0,0,.1)',
                 lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
                 semiDark: '0 1.5rem 4rem rgba(0,0,0,.2)',
                 semiDarkLow: '0 1.5rem 4rem rgba(0,0,0,.15)',

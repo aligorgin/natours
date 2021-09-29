@@ -41,6 +41,14 @@
         background-image: radial-gradient(#7ed56f, #28b485);
     }
 
+    .cubic-custom {
+        transition: all .8s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+
+    .cubic-custom-after {
+        transition: all .8s cubic-bezier(0.68, -0.7, 0.32, 1.7);
+    }
+
 }
 
 html {
