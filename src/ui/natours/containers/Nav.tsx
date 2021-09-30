@@ -12,12 +12,13 @@ export default function Nav() {
         <div>
             <div onClick={() => setClose((prevState => !prevState))}
                  className={clsx('cursor-pointer group flex flex-col items-center justify-center bg-white h-[7rem] w-[7rem] fixed top-[6rem] right-[6rem] rounded-full z-50 shadow-moreLight')}>
-                <span className={clsx('w-[3rem] h-[2px] bg-[#333] inline-block  transition-all',
-                    isClose ? 'mb-2 group-hover:mb-3' : "rotate-135  -mb-2")}/>
-                <span className={clsx('w-[3rem] h-[2px] inline-block  transition-all',
-                    isClose ? 'bg-[#333] mb-2 group-hover:mb-3' : 'bg-transparent mb-0')}/>
-                <span className={clsx('w-[3rem] h-[2px] bg-[#333] inline-block',
-                    isClose ? '' : '-rotate-135 ')}/>
+
+                <span className={clsx('w-[3rem] h-[2px] bg-[#333] inline-block  transition-all', isClose ? 'mb-2 group-hover:mb-3' : "rotate-135  -mb-2")}/>
+
+                <span className={clsx('w-[3rem] h-[2px] inline-block  transition-all', isClose ? 'bg-[#333] mb-2 group-hover:mb-3' : 'bg-transparent mb-0')}/>
+
+                <span className={clsx('w-[3rem] h-[2px] bg-[#333] inline-block', isClose ? '' : '-rotate-135 ')}/>
+
             </div>
             <div
                 className={clsx('h-[6rem] w-[6rem] rounded-full fixed right-[6.5rem] top-[6.5rem] radial-gradient-green z-30 cubic-custom',

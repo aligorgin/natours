@@ -4,21 +4,21 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
-            rotate:{
-              '135':'135deg',
-              '-135':'-135deg'
+            rotate: {
+                '135': '135deg',
+                '-135': '-135deg'
             },
-            outline:{
-                xl:['1.5rem solid #55c57a','2rem']
+            outline: {
+                xl: ['1.5rem solid #55c57a', '2rem']
             },
             colors: {
                 'primary': '#55c57a',
                 'primary-light': '#7ed56f',
                 'primary-dark': '#28b485',
-                'secondary-light':'#ffb900',
-                'secondary-dark':'#ff7730',
-                'tertiary-light':'#2998ff',
-                'tertiary-dark':'#5643fa',
+                'secondary-light': '#ffb900',
+                'secondary-dark': '#ff7730',
+                'tertiary-light': '#2998ff',
+                'tertiary-dark': '#5643fa',
             },
             scale: {
                 '140': '1.4',
@@ -26,16 +26,18 @@ module.exports = {
             },
             zIndex: {
                 '-1': '-1',
+                '51': '51'
             },
             boxShadow: {
                 light: '0 1rem 2rem rgba(0,0,0,.2)',
-                moreLight:'0 1rem 3rem rgba(0,0,0,.1)',
+                moreLight: '0 1rem 3rem rgba(0,0,0,.1)',
                 lessLight: '0 .5rem 1rem rgba(0,0,0,.2)',
                 semiDark: '0 1.5rem 4rem rgba(0,0,0,.2)',
                 semiDarkLow: '0 1.5rem 4rem rgba(0,0,0,.15)',
                 dark: '0 2.5rem 4rem rgba(0,0,0,.5)',
                 super: '0 3rem 6rem rgba(0,0,0,.1)',
-                superDark:'0 1rem 2rem rgba(0,0,0,.4)'
+                superDark: '0 1rem 2rem rgba(0,0,0,.4)',
+                darkL: '0 2rem 4rem rgba(0,0,0,.2)',
             },
             translate: {
                 '0.75': '.3rem'

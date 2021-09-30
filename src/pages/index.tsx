@@ -4,7 +4,7 @@ import App from "../ui/natours/App";
 
 const Home: NextPage = () => {
     return (
-        <div>
+        <html lang={'en'}>
             <Head>
                 <title>Css Yard</title>
                 <meta name='description' content='a yard for practicing advance css'/>
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                 <link rel='icon' href='/natours-img/favicon.png'/>
             </Head>
             <App/>
-        </div>
+        </html>
     )
 }
 

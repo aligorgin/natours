@@ -49,6 +49,14 @@
         transition: all .8s cubic-bezier(0.68, -0.7, 0.32, 1.7);
     }
 
+    /*to get this work we need "html lang={'en'}" */
+    .hyphens-auto{
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
 }
 
 html {
@@ -104,4 +112,10 @@ body {
 
 .nav-text-hover:hover {
     background-position: 100%;
+}
+
+.popup-column{
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid #eee;
 }

@@ -33,7 +33,11 @@ const Words = {
 
     storyP: ' fugit illum in laborum libero nisi officiis quas qui quia, ratione saepe sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur culpa dolorem id illum, inventore neque quasi quisquam tempora tempore voluptas voluptates? Ea fuga fugit minus possimus reiciendis sapiente voluptate.',
     storyHeader2: 'wow! my life is completely different now',
-    storyHeader1:'i had the best week ever with my family'
+    storyHeader1:'i had the best week ever with my family',
+
+    popUpHeader:'Start booking now',
+    popUph3:'important --- Please read these terms before booking',
+    popUpP:'recusandae repellendus ut. Ab adipisci aperiam architecto aut commodi consectetur consequuntur cumque delectus deserunt esse eveniet fuga fugiat fugit illo in incidunt inventore iste iusto minima natus nisi nulla, numquam optio quae quibusdam quis soluta tempore vel veniam voluptate! Accusantium assumenda at autem deserunt ea est illo labore magni, nisi quis repudiandae ut!'
 
 }
 

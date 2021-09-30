@@ -6,6 +6,7 @@ import Stories from "./containers/Stories";
 import Booking from "./containers/Booking";
 import Footer from "./containers/Footer";
 import Nav from "./containers/Nav";
+import PopUp from "./containers/PopUp";
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
             <footer>
                 <Footer/>
             </footer>
+            <PopUp/>
         </div>
     )
 
