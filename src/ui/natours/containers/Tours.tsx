@@ -6,7 +6,7 @@ import Button from "../components/Button";
 export default function Tours() {
     return (
         <>
-            <section className='bg-gray-100 pt-[25rem] pb-[15rem] px-0 mt-[-10rem] xl:mt-[-14rem]'>
+            <section className='bg-gray-100 pt-[25rem] pb-[15rem] px-0 mt-[-10rem] xl:mt-[-14rem] ' id='tours'>
 
                 <div className='mb-[8rem] text-center'>
                     <HeaderHoverAnimate text={'most popular tours'}/>

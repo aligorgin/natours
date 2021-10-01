@@ -23,7 +23,7 @@ export default function Header() {
                     <span className='animate-fadeRight block tracking-[3.5rem] text-[6rem] font-normal'>outdoors</span>
                     <span className='animate-fadeLeft block tracking-[1.75rem] text-[2rem] font-bold'>is where life happens</span>
                 </h1>
-                <a href="#">
+                <a href="#tours">
                     <Button isSubmitButton={false} colorAfter={'after:bg-white'} textColor='text-[#777]' color='bg-white' text={'discover our tours'} isAnimated={true}/>
                 </a>
             </div>

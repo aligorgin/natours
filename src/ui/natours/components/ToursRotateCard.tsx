@@ -3,6 +3,7 @@ import nat5 from '../../../../public/natours-img/nat-5.jpg';
 import nat6 from '../../../../public/natours-img/nat-6.jpg';
 import nat7 from '../../../../public/natours-img/nat-7.jpg';
 import Button from "./Button";
+import {useState} from "react";
 
 interface Props {
     img: number;
@@ -18,13 +19,18 @@ interface Props {
 }
 
 export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, price, colorLight, colorDark}: Props) {
+    const [isClicked, setClick] = useState(false);
+
+    const handleClick = () => {
+        setClick(() => {
+            return true
+        })
+    }
 
     return (
         <div className='tours-rotate relative h-[52rem] w-[34rem]'>
-            <div className='shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 bg-white
-                            h-[50rem] transition-all duration-700 h-[52rem]
-                            ease-out tours-rotate__card__front rounded-[3px] overflow-hidden
-                            '>
+            <div
+                className='shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 bg-white h-[50rem] transition-all duration-700 h-[52rem] ease-out tours-rotate__card__front rounded-[3px] overflow-hidden'>
                 <div
                     className={`h-[23rem] w-full bg-gradient-to-br ${colorLight} ${colorDark} clip-path-br-85 rounded-tl-[3px] rounded-tr-[3px]`}>
                     {img === 5 && <Image src={nat5} alt='nature image' objectFit='cover' width={340} height={230}
@@ -51,16 +57,17 @@ export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, 
                     </ul>
                 </div>
             </div>
-            <div className={`shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 
-                            text-white text-[2rem] h-[50rem] transition-all duration-700 ease-out
-                            tours-rotate__card__back
-                            bg-gradient-to-br ${colorLight} ${colorDark}`}>
+            <div
+                className={`shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 text-white text-[2rem] h-[50rem] transition-all duration-700 ease-out tours-rotate__card__back bg-gradient-to-br ${colorLight} ${colorDark}`}>
                 <div className='flex flex-col justify-center items-center h-full'>
                     <div className='text-center mb-[8rem]'>
                         <div className='text-[1.4rem] uppercase'>Only</div>
                         <div className='text-[6rem] font-thin'>${price}</div>
                     </div>
-                    <Button isSubmitButton={false} colorAfter={'after:bg-white'} textColor={'text-[#777]'} color={'bg-white'} text={'Book now!'}/>
+                    <a onClick={handleClick}>
+                        <Button isSubmitButton={false} colorAfter={'after:bg-white'} textColor={'text-[#777]'}
+                                color={'bg-white'} text={'Book now!'}/>
+                    </a>
                 </div>
             </div>
         </div>
