@@ -42,11 +42,11 @@
     }
 
     .cubic-custom {
-        transition: all .8s cubic-bezier(0.65, 0, 0.35, 1);
+        transition: all .6s cubic-bezier(0.65, 0, 0.35, 1);
     }
 
     .cubic-custom-after {
-        transition: all .8s cubic-bezier(0.68, -0.5, 0.32, 1.5);
+        transition: all .6s cubic-bezier(0.68, -0.5, 0.32, 1.5);
     }
 
     /*to get this work we need "html lang={'en'}" */
@@ -55,6 +55,10 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+    }
+
+    .scroll-smooth{
+        scroll-behavior: smooth;
     }
 
 }

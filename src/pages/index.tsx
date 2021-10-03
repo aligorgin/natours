@@ -4,7 +4,7 @@ import App from "../ui/natours/App";
 
 const Home: NextPage = () => {
     return (
-        <html lang={'en'}>
+        <html style={{scrollBehavior:'smooth'}} lang={'en'}>
             <Head>
                 <title>Css Yard</title>
                 <meta name='description' content='a yard for practicing advance css'/>

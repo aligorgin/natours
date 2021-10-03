@@ -16,9 +16,6 @@ export default function App() {
 
     const providerValue = useMemo(() => ({isOpen, setOpen}), [isOpen, setOpen])
 
-
-    console.log(typeof setOpen)
-
     return (
         <div className={'p-[3rem]'}>
             <ModalContext.Provider value={providerValue}>
