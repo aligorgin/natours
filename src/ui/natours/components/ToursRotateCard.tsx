@@ -3,7 +3,8 @@ import nat5 from '../../../../public/natours-img/nat-5.jpg';
 import nat6 from '../../../../public/natours-img/nat-6.jpg';
 import nat7 from '../../../../public/natours-img/nat-7.jpg';
 import Button from "./Button";
-import {useState} from "react";
+import {useContext, useState} from "react";
+import {ModalContext} from "../providers/ModalContext";
 
 interface Props {
     img: number;
@@ -19,13 +20,9 @@ interface Props {
 }
 
 export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, price, colorLight, colorDark}: Props) {
-    const [isClicked, setClick] = useState(false);
 
-    const handleClick = () => {
-        setClick(() => {
-            return true
-        })
-    }
+    const {isOpen, setOpen} = useContext(ModalContext)
+
 
     return (
         <div className='tours-rotate relative h-[52rem] w-[34rem]'>
@@ -64,7 +61,7 @@ export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, 
                         <div className='text-[1.4rem] uppercase'>Only</div>
                         <div className='text-[6rem] font-thin'>${price}</div>
                     </div>
-                    <a onClick={handleClick}>
+                    <a onClick={() => setOpen(true)}>
                         <Button isSubmitButton={false} colorAfter={'after:bg-white'} textColor={'text-[#777]'}
                                 color={'bg-white'} text={'Book now!'}/>
                     </a>
