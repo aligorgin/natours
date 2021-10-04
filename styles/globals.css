@@ -72,7 +72,7 @@
 }
 
 html {
-    @apply text-[62.5%];
+    @apply text-[50%] lg:text-[56.25%] xl:text-[62.5%] ;
 }
 
 
