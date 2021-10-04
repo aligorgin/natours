@@ -14,7 +14,7 @@ export default function Nav() {
     return (
         <div>
             <div onClick={() => setClose((prevState => !prevState))}
-                 className={clsx('cursor-pointer group flex flex-col items-center justify-center bg-white h-[7rem] w-[7rem] fixed top-[6rem] right-[6rem] rounded-full z-50 shadow-moreLight')}>
+                 className={clsx('cursor-pointer group flex flex-col items-center justify-center bg-white h-[7rem] w-[7rem] fixed right-[3.5rem] top-[2.5rem] md:top-[6rem] right-[3.5rem] top-[3.5rem] md:right-[6rem] rounded-full z-50 shadow-moreLight')}>
 
                 <span
                     className={clsx('w-[3rem] h-[2px] bg-[#333] inline-block  transition-all', isClose ? 'mb-2 group-hover:mb-3' : "rotate-135  -mb-2")}/>
@@ -26,7 +26,7 @@ export default function Nav() {
 
             </div>
             <div
-                className={clsx('h-[6rem] w-[6rem] rounded-full fixed right-[6.5rem] top-[6.5rem] radial-gradient-green z-30 cubic-custom',
+                className={clsx('h-[6rem] w-[6rem] rounded-full fixed right-[4.3rem] top-[3.7rem] md:right-[6.5rem] right-[3.5rem] top-[3.5rem] md:top-[6.5rem] radial-gradient-green z-30 cubic-custom',
                     isClose ? '' : 'scale-[90]')}/>
             <nav
                 className={clsx('flex h-screen fixed top-0 left-0 z-40  justify-center items-center cubic-custom-after ',

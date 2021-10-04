@@ -5,7 +5,7 @@ import FooterList from "../components/FooterList";
 
 export default function Footer(){
     return(
-        <div className='bg-[#333] py-[10rem] text-[1.4rem]'>
+        <div className='bg-[#333] py-[8rem] lg:py-[10rem] text-[1.4rem]'>
 
             <div className='mb-[8rem] flex justify-center'>
                 <div className='w-[15rem] h-auto '>
@@ -14,11 +14,11 @@ export default function Footer(){
             </div>
 
 
-            <div className='max-w-[114rem] mx-auto'>
+            <div className='max-w-[50rem] lg:max-w-[114rem] mx-auto'>
 
-                <div className='grid grid-cols-2 gap-80'>
+                <div className='grid gap-32 grid-cols-1 lg:grid-cols-2 lg:gap-80'>
 
-                    <div className='border-t-[1px] border-solid border-[#777] pt-[2rem] inline-block'>
+                    <div className='text-center lg:text-left border-t-[1px] border-solid border-[#777] pt-[2rem] inline-block'>
                         <ul>
                             <FooterList text={'Company'}/>
                             <FooterList text={'Contact us'}/>
@@ -28,7 +28,7 @@ export default function Footer(){
                         </ul>
                     </div>
 
-                    <div className='w-4/5 border-t-[1px] border-solid border-[#777] pt-[2rem] inline-block'>
+                    <div className='w-full lg:w-4/5 border-t-[1px] border-solid border-[#777] pt-[2rem] inline-block'>
                         <p>
                             copyright &copy; by jonas schmedtmann for his course, exercitationem expedita fuga iusto minus molestias nobis optio quasi qui reiciendis sapiente similique suscipit vel vero vitae voluptatibus! Ducimus eos, molestiae quas repellat repudiandae rerum saepe sapiente! Ab accusantium, consectetur consequuntur culpa cumque cupiditate deleniti dolorem dolores enim inventore itaque non odit porro quis quisquam, reiciendis rem totam, veniam voluptate!
                         </p>

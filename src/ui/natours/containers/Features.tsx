@@ -13,8 +13,8 @@ export default function Features() {
                     <Image src={nat4} alt='nature image' layout="fill" objectFit="cover"/>
                 </div>
 
-                <div className='max-w-[114rem] mx-auto'>
-                    <div className='grid grid-cols-4 gap-[6rem]'>
+                <div className='max-w-[50rem] lg:max-w-[114rem] mx-auto'>
+                    <div className='grid px-12 md:px-0 place-items-center gap-y-12 grid-cols-1 md:grid-cols-2 md:gap-12  xl:grid-cols-4 xl:gap-[6rem]'>
 
                         <FeatureBox
                             icon={GlobeIcon}

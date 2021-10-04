@@ -17,7 +17,7 @@ export default function About() {
             </div>
 
             <div className='max-w-[114rem] mx-auto'>
-                <div className='grid grid-cols-2 gap-20'>
+                <div className='grid grid-cols-1 px-5 lg:px-0 lg:grid-cols-2 lg:gap-20'>
                     <div>
                         <HeadingTerritory text={Words.headingTerritory1}/>
                         <Paragraph

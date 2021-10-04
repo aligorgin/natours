@@ -6,15 +6,15 @@ import Button from "../components/Button";
 export default function Tours() {
     return (
         <>
-            <section className='bg-gray-100 pt-[25rem] pb-[15rem] px-0 mt-[-10rem] xl:mt-[-14rem] ' id='tours'>
+            <section className='bg-gray-100 pt-[25rem] pb-[15rem] px-0 mt-[-10rem] lg:mt-[-14rem] ' id='tours'>
 
                 <div className='mb-[8rem] text-center'>
                     <HeaderHoverAnimate text={'most popular tours'}/>
                 </div>
 
 
-                <div className='max-w-[114rem] mx-auto'>
-                    <div className='grid grid-cols-3 gap-[6rem]'>
+                <div className='max-w-[50rem] lg:max-w-[114rem] mx-auto'>
+                    <div className='grid grid-cols-1 place-items-center gap-y-5 lg:gap-y-0 lg:grid-cols-3 lg:gap-[6rem]'>
 
                         <ToursRotateCard
                             img={5}
