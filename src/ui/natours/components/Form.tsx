@@ -5,7 +5,7 @@ export default function Form(){
     return(
         <form action="#" autoComplete={'off'}>
 
-            <div className='mb-[4rem]'>
+            <div className='mb-[3rem] lg:mb-[4rem]'>
                 <HeaderHoverAnimate text={'Start booking now'}/>
             </div>
 

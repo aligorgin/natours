@@ -5,7 +5,7 @@ import Form from "../components/Form";
 export default function Booking() {
     return (
         <>
-            <section className='py-[15rem] bg-gradient-to-br from-primary-light to-primary-dark'>
+            <section className='py-[10rem] lg:py-[15rem] bg-gradient-to-br from-primary-light to-primary-dark'>
                 <div className='max-w-[114rem] mx-auto'>
                     <div style={{backgroundSize: '100%'}}
                          className='h-[50rem] overflow-hidden rounded-[3px] shadow-semiDark relative'>

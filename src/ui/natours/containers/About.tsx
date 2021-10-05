@@ -11,8 +11,8 @@ import Image from "next/image";
 export default function About() {
 
     return (
-        <section className='bg-gray-100 py-[30rem] mt-[-25vh] px-0 '>
-            <div className='text-center mb-[8rem]'>
+        <section className='bg-gray-100 py-[20rem] lg:py-[30rem] mt-[-25vh] px-0 '>
+            <div className='text-center mb-[5rem] lg:mb-[8rem]'>
                 <HeaderHoverAnimate text={Words.header}/>
             </div>
 

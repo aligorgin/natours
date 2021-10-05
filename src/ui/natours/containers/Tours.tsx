@@ -6,9 +6,9 @@ import Button from "../components/Button";
 export default function Tours() {
     return (
         <>
-            <section className='bg-gray-100 pt-[25rem] pb-[15rem] px-0 mt-[-10rem] lg:mt-[-14rem] ' id='tours'>
+            <section className='bg-gray-100 py-[20rem] lg:pt-[25rem] pb-[10rem] lg:pb-[15rem] px-0 mt-[-10rem] lg:mt-[-14rem] ' id='tours'>
 
-                <div className='mb-[8rem] text-center'>
+                <div className='mb-[5rem] lg:mb-[8rem] text-center'>
                     <HeaderHoverAnimate text={'most popular tours'}/>
                 </div>
 

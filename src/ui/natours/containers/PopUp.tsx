@@ -52,7 +52,7 @@ export default function PopUp() {
                             </div>
 
                             <HeadingTerritory text={Words.popUph3}/>
-                            <p className='text-[1.4rem] mb-[4rem] popup-column hyphens-auto'>{Words.popUpP}</p>
+                            <p className='text-[1.4rem] mb-[3rem] lg:mb-[4rem] popup-column hyphens-auto'>{Words.popUpP}</p>
                             <a href="#">
                                 <Button text={'Book now'} color={'bg-primary'} textColor={'text-white'}
                                         colorAfter={'after:bg-primary'} isSubmitButton={false}/>

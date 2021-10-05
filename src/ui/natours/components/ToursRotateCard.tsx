@@ -25,7 +25,7 @@ export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, 
 
 
     return (
-        <div className='tours-rotate relative h-[52rem] w-[34rem]'>
+        <div className='tours-rotate perspective-150 relative h-[52rem] w-[34rem]'>
             <div
                 className='shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 bg-white h-[50rem] transition-all duration-700 h-[52rem] ease-out tours-rotate__card__front rounded-[3px] overflow-hidden'>
                 <div
@@ -57,7 +57,7 @@ export default function ToursRotateCard({heading, li1, li2, li3, li4, li5, img, 
             <div
                 className={`shadow-semiDarkLow absolute back-face-hidden back w-full top-0 left-0 text-white text-[2rem] h-[50rem] transition-all duration-700 ease-out tours-rotate__card__back bg-gradient-to-br ${colorLight} ${colorDark}`}>
                 <div className='flex flex-col justify-center items-center h-full'>
-                    <div className='text-center mb-[8rem]'>
+                    <div className='text-center mb-[5rem] lg:mb-[8rem]'>
                         <div className='text-[1.4rem] uppercase'>Only</div>
                         <div className='text-[6rem] font-thin'>${price}</div>
                     </div>

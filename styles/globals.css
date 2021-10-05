@@ -73,6 +73,10 @@
         transform: rotateX(0);
     }
 
+    .perspective-150{
+        perspective: 150rem;
+    }
+
 }
 
 html {
@@ -89,12 +93,7 @@ body {
     transform: scale(.93);
 }
 
-/*rotate y tours cards cause tailwind dosen't has rotate y*/
-.tours-rotate {
-    perspective: 150rem;
-    -moz-perspective: 150rem;
-}
-
+/*rotate y tours cards cause tailwind doesn't has rotate y*/
 .tours-rotate__card__back {
     transform: rotateY(180deg);
 }

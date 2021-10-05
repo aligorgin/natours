@@ -7,7 +7,7 @@ export default function Footer(){
     return(
         <div className='bg-[#333] py-[8rem] lg:py-[10rem] text-[1.4rem]'>
 
-            <div className='mb-[8rem] flex justify-center'>
+            <div className='mb-[6rem] lg:mb-[8rem] flex justify-center'>
                 <div className='w-[15rem] h-auto '>
                     <Image src={logo2x} alt='full logo' objectFit='cover' className='text-center'/>
                 </div>
