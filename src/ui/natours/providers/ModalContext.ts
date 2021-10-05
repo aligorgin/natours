@@ -1,5 +1,11 @@
 import React, {createContext} from "react";
 
-export const ModalContext = createContext({
+interface MyObj {
+    isOpen: boolean ,
+    setOpen: React.Dispatch<React.SetStateAction<boolean>> ,
+}
+
+export const ModalContext = createContext<MyObj>({
     isOpen: false,
-    setOpen: false})
+    setOpen: () => {},
+})

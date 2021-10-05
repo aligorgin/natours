@@ -11,10 +11,15 @@ import {ModalContext} from "./providers/ModalContext";
 import React, {ReactNode, useMemo, useState} from "react";
 
 
+interface MyObj {
+    isOpen: boolean,
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>,
+}
+
 export default function App() {
     const [isOpen, setOpen] = useState<boolean>(false);
 
-    const providerValue = useMemo(() => ({isOpen, setOpen}), [isOpen, setOpen])
+    const providerValue = useMemo<MyObj>(() => ({isOpen, setOpen}), [isOpen, setOpen])
 
     return (
         <div className={'lg:p-[3rem]'}>
