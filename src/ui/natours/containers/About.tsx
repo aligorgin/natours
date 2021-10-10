@@ -7,11 +7,12 @@ import nat1 from '../../../../public/natours-img/nat-1-large.jpg';
 import nat2 from '../../../../public/natours-img/nat-2-large.jpg';
 import nat3 from '../../../../public/natours-img/nat-3-large.jpg';
 import Image from "next/image";
+import AboutImg from "../components/AboutImg";
 
 export default function About() {
 
     return (
-        <section className='bg-gray-100 py-[20rem] lg:py-[30rem] mt-[-25vh] px-0 '>
+        <section className='bg-gray-100 pt-[20rem] pb-[30rem] lg:py-[30rem] mt-[-25vh] px-0 '>
             <div className='text-center mb-[5rem] lg:mb-[8rem]'>
                 <HeaderHoverAnimate text={Words.header}/>
             </div>
@@ -35,25 +36,10 @@ export default function About() {
                         </a>
                     </div>
 
-                    <div>
-                        <div className='relative composition'>
-                            <div
-                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 left-0 top-[-2rem]
-                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
-                                <Image src={nat1} alt='photo 2' layout='responsive'/>
-                            </div>
-
-                            <div
-                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 right-0 top-[2rem]
-                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
-                                <Image src={nat2} alt='photo 2' layout='responsive'/>
-                            </div>
-                            <div
-                                className='composition__photo w-[55%] shadow-semiDark rounded-[2px] absolute transition-all duration-200 left-[20%] top-[10rem]
-                                           hover:scale-105 hover:shadow-dark hover:z-20 hover:outline-xl hover:translate-y-[-.5rem]'>
-                                <Image src={nat3} alt='photo 2' layout='responsive'/>
-                            </div>
-                        </div>
+                    <div className='relative composition'>
+                        <AboutImg img={1} className={'lg:left-0 lg:top-[-2rem]'}/>
+                        <AboutImg img={2} className={'lg:right-0 lg:top-[2rem]'}/>
+                        <AboutImg img={3} className={'lg:left-[20%] lg:top-[10rem]'}/>
                     </div>
 
                 </div>
