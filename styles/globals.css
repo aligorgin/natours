@@ -23,6 +23,14 @@
         clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
     }
 
+    .clip-path-tr {
+        clip-path: polygon(0 15%,100% 0,100% 100% ,0 100%);
+    }
+
+    .clip-path-default {
+        clip-path: polygon(0 0,100% 0,100% 100% ,0 100%);
+    }
+
     /*for fixing transform issue*/
     .back-face-hidden {
         backface-visibility: hidden;
@@ -54,27 +62,39 @@
     }
 
     /*to get this work we need "html lang={'en'}" */
-    .hyphens-auto{
+    .hyphens-auto {
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
     }
 
-    .scroll-smooth{
+    .scroll-smooth {
         scroll-behavior: smooth;
     }
 
-    .-rotate-x-90{
+    .-rotate-x-90 {
         transform: rotateX(-90deg);
     }
 
-    .rotate-x-0{
+    .rotate-x-0 {
         transform: rotateX(0);
     }
 
-    .perspective-150{
+    .perspective-150 {
         perspective: 150rem;
+    }
+
+    .-rotate-y-180 {
+        transform: rotateY(-180deg);
+    }
+
+    .rotate-y-0 {
+        transform: rotateY(0);
+    }
+
+    .rotate-y-180 {
+        transform: rotateY(180deg);
     }
 
 }
@@ -92,22 +112,6 @@ body {
 .composition:hover .composition__photo:not(:hover) {
     transform: scale(.93);
 }
-
-/*rotate y tours cards cause tailwind doesn't has rotate y*/
-.tours-rotate__card__back {
-    transform: rotateY(180deg);
-}
-
-
-/*cause tailwind doesnt has rotate y or x*/
-.tours-rotate:hover .tours-rotate__card__front {
-    transform: rotateY(-180deg);
-}
-
-.tours-rotate:hover .tours-rotate__card__back {
-    transform: rotateY(0);
-}
-
 
 /*a complex selector for tailwind*/
 .form_input:placeholder-shown + .form_label {
@@ -129,7 +133,7 @@ body {
     background-position: 100%;
 }
 
-.popup-column{
+.popup-column {
     column-count: 2;
     column-gap: 4rem;
     column-rule: 1px solid #eee;

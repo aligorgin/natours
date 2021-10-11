@@ -17,19 +17,19 @@ const Words = {
     toursLi2Card1: 'Up to 30 people',
     toursLi3Card1: '2 tour guides',
     toursLi4Card1: 'Sleep in cozy hostels',
-    toursLi5Card1: 'Difficulty:very easy',
+    toursLi5Card1: 'Difficulty : very easy',
 
     toursLi1Card2: '7 day tour',
     toursLi2Card2: 'Up to 40 people',
     toursLi3Card2: '6 tour guides',
     toursLi4Card2: 'Sleep in provided tents',
-    toursLi5Card2: 'Difficulty: medium',
+    toursLi5Card2: 'Difficulty : medium',
 
     toursLi1Card3: '5 day tour',
     toursLi2Card3: 'Up to 15 people',
     toursLi3Card3: '3 tour guides',
     toursLi4Card3: 'Sleep in provided tents',
-    toursLi5Card3: 'Difficulty: hard',
+    toursLi5Card3: 'Difficulty : hard',
 
     storyP: ' fugit illum in laborum libero nisi officiis quas qui quia, ratione saepe sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur culpa dolorem id illum, inventore neque quasi quisquam tempora tempore voluptas voluptates? Ea fuga fugit minus possimus reiciendis sapiente voluptate.',
     storyHeader2: 'wow! my life is completely different now',

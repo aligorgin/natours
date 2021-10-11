@@ -7,7 +7,7 @@ import Words from "../contents/Words";
 export default function Features() {
     return (
         <>
-            <section className='mt-[-10rem] xl:mt-[-15rem] relative py-[15rem] lg:py-[20rem] px-0 bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)] skew-y-[-7deg]'>
+            <section className='mt-[-10rem] xl:mt-[-15rem] relative py-[10rem] lg:py-[20rem] px-0 bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)] skew-y-[-7deg]'>
 
                 <div className='absolute top-0 left-0 w-full h-full opacity-20'>
                     <Image src={nat4} alt='nature image' layout="fill" objectFit="cover"/>
