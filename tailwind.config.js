@@ -3,6 +3,11 @@ module.exports = {
     purge: ['./src/**/*.{js,ts,jsx,tsx}'],
     darkMode: false, // or 'media' or 'class'
     theme: {
+        screens: {
+            'sm': '43rem', //688px
+            'md': '62rem', //992px
+            'lg': '82rem', //1312px
+        },
         extend: {
             rotate: {
                 '135': '135deg',

@@ -9,17 +9,17 @@ export default function Form(){
                 <HeaderHoverAnimate text={'Start booking now'}/>
             </div>
 
-            <div className='mb-[2rem]'>
-                <input className='form_input transition-all duration-300 focus:invalid:border-secondary-dark text-black placeholder-[#999] w-4/5 block border-b-[3px] border-solid border-transparent focus:outline-none focus:shadow-light focus:border-b-[3px] focus:border-solid focus:border-primary text-[1.5rem] py-[1.5rem] px-[2rem] rounded-[2px] bg-white bg-opacity-50 ' type="text" placeholder='Full name' id='name' required />
+            <div className='mb-[1rem] sm:mb-[2rem]'>
+                <input className='form_input transition-all duration-300 focus:invalid:border-secondary-dark text-black placeholder-[#999] w-full sm:w-4/5 block border-b-[3px] border-solid border-transparent focus:outline-none focus:shadow-light focus:border-b-[3px] focus:border-solid focus:border-primary text-[1.5rem] py-[1.5rem] px-[2rem] rounded-[2px] bg-white bg-opacity-50 ' type="text" placeholder='Full name' id='name' required />
                 <label className='form_label transition-all duration-300 text-[1.2rem] font-bold ml-[2rem] mt-[.7rem] block text-gray-900' htmlFor="name">Full name</label>
             </div>
 
-            <div className='mb-[2rem]'>
-                <input className='form_input transition-all duration-300 focus:invalid:border-secondary-dark text-black placeholder-[#999] w-4/5 block border-b-[3px] border-solid border-transparent focus:outline-none focus:shadow-light focus:border-b-[3px] focus:border-solid focus:border-primary text-[1.5rem] py-[1.5rem] px-[2rem] rounded-[2px] bg-white bg-opacity-50 ' type="email" placeholder='Email address' id='email' required />
+            <div className='mb-[1rem] sm:mb-[2rem]'>
+                <input className='form_input transition-all duration-300 focus:invalid:border-secondary-dark text-black placeholder-[#999] w-full sm:w-4/5 block border-b-[3px] border-solid border-transparent focus:outline-none focus:shadow-light focus:border-b-[3px] focus:border-solid focus:border-primary text-[1.5rem] py-[1.5rem] px-[2rem] rounded-[2px] bg-white bg-opacity-50 ' type="email" placeholder='Email address' id='email' required />
                 <label className='form_label transition-all duration-300 text-[1.2rem] font-bold ml-[2rem] mt-[.7rem] block text-gray-900' htmlFor="email">Email address</label>
             </div>
 
-            <div className='flex space-x-32 mb-[3.5rem]'>
+            <div className='flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-32 mb-[3.5rem]'>
                 <div>
                     <input type="radio" id='small' name='size' className='hidden radio-input'/>
                     <label htmlFor="small" className='text-[1.6rem] cursor-pointer relative pl-[4rem] radio-label'>

@@ -21,7 +21,7 @@ export default function Header() {
                 className='back-face-hidden absolute top-[40%] left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center'>
                 <h1 className='text-gray-100 uppercase mb-[6rem]'>
                     <span className='animate-fadeRight block tracking-[1rem] sm:tracking-[3.5rem] text-[5rem] sm:text-[6rem] font-normal'>outdoors</span>
-                    <span className='animate-fadeLeft block tracking-[.5rem] sm:tracking-[1.75rem] text-[2rem] font-bold'>is where life happens</span>
+                    <span className='animate-fadeLeft block tracking-[.5rem] sm:tracking-[1.5rem] text-[2rem] font-bold'>is where life happens</span>
                 </h1>
                 <a href="#tours">
                     <Button isSubmitButton={false} colorAfter={'after:bg-white'} textColor='text-[#777]' color='bg-white' text={'discover our tours'} isAnimated={true}/>

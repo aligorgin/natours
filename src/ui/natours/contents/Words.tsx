@@ -31,7 +31,7 @@ const Words = {
     toursLi4Card3: 'Sleep in provided tents',
     toursLi5Card3: 'Difficulty : hard',
 
-    storyP: ' fugit illum in laborum libero nisi officiis quas qui quia, ratione saepe sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur culpa dolorem id illum, inventore neque quasi quisquam tempora tempore voluptas voluptates? Ea fuga fugit minus possimus reiciendis sapiente voluptate.',
+    storyP: ' fugit illum in laborum libero nisi officiis quas qui quia, ratione saepe sequi ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur culpa dolorem id illum, inventore neque quasi quisquam tempora tempore voluptas voluptates? Ea fuga fugit minus possimus reiciendis sapiente voluptate. Accusantium assumenda at autem deserunt',
     storyHeader2: 'wow! my life is completely different now',
     storyHeader1:'i had the best week ever with my family',
 

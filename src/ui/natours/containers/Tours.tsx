@@ -14,7 +14,7 @@ export default function Tours() {
 
 
                 <div className='max-w-[50rem] lg:max-w-[114rem] mx-auto'>
-                    <div className='grid grid-cols-1 place-items-center gap-y-5 lg:gap-y-0 lg:grid-cols-3 lg:gap-[6rem]'>
+                    <div className='grid grid-cols-1 place-items-center gap-y-12 lg:gap-y-0 lg:grid-cols-3 lg:gap-[6rem]'>
 
                         <ToursRotateCard
                             img={5}

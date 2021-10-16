@@ -7,14 +7,14 @@ import Words from "../contents/Words";
 export default function Features() {
     return (
         <>
-            <section className='mt-[-10rem] xl:mt-[-15rem] relative py-[10rem] lg:py-[20rem] px-0 bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)] skew-y-[-7deg]'>
+            <section className='mt-[-10rem] lg:mt-[-15rem] relative py-[10rem] lg:py-[20rem] px-0 bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,131,0.8)] skew-y-[-7deg]'>
 
                 <div className='absolute top-0 left-0 w-full h-full opacity-20'>
                     <Image src={nat4} alt='nature image' layout="fill" objectFit="cover"/>
                 </div>
 
-                <div className='max-w-[50rem] md:max-w-[70rem] lg:max-w-[86rem] xl:max-w-[114rem] mx-auto'>
-                    <div className='grid px-12 md:px-0 place-items-center gap-y-12 grid-cols-1 md:grid-cols-2 md:gap-12  xl:grid-cols-4 xl:gap-[6rem]'>
+                <div className='max-w-[50rem] md:max-w-[70rem] lg:max-w-[86rem] lg:max-w-[114rem] mx-auto'>
+                    <div className='grid px-12 md:px-0 place-items-center gap-y-12 grid-cols-1 md:grid-cols-2 md:gap-12  lg:grid-cols-4 lg:gap-[6rem]'>
 
                         <FeatureBox
                             icon={GlobeIcon}
