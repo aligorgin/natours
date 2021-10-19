@@ -18,11 +18,11 @@ export default function PopUp() {
     const {isOpen, setOpen} = useContext(ModalContext);
 
     return (
-        <div className={clsx('h-screen w-full fixed top-0 left-0 transition-all duration-300 grid place-items-center px-8 h-auto sm:px-0',
+        <div className={clsx('h-screen w-full backdrop-blur-md fixed top-0 left-0 transition-all duration-300 grid place-items-center px-8 h-auto sm:px-0',
             isOpen ? 'opacity-100 visible' : 'opacity-0 invisible')}>
             <div onClick={() => {
                 setOpen(false)
-            }} className='absolute left-0 top-0 z-[54] h-screen w-full bg-black/80 '/>
+            }} className='absolute left-0 top-0 z-[54] h-screen w-full bg-black/30 '/>
 
             <div className={clsx('w-full sm:w-3/4 bg-white shadow-darkL rounded-[3px] z-[6500] transition-all duration-300 origin-bottom', isOpen ? 'rotate-x-0' : '-rotate-x-90')}>
 

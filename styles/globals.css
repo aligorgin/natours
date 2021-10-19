@@ -138,3 +138,8 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #eee;
 }
+
+::selection{
+    background-color: #55c57a;
+    color: white;
+}
