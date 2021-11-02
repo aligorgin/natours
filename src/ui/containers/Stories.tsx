@@ -9,7 +9,7 @@ export default function Stories() {
             <section className='py-[10rem] lg:py-[15rem] relative'>
 
                 <div className='absolute top-0 left-0 w-full h-full -z-1 opacity-20 overflow-hidden'>
-                    <video src={require('../../../../public/natours-img/video.mp4')} autoPlay muted loop
+                    <video src={require('../../../public/natours-img/video.mp4')} autoPlay muted loop
                            className='h-full w-full object-cover '>
                         Your browser is not supported!
                     </video>

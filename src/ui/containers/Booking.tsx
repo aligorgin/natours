@@ -1,4 +1,4 @@
-import nat10 from '../../../../public/natours-img/nat-10.jpg';
+import nat10 from '../../../public/natours-img/nat-10.jpg';
 import Image from "next/image";
 import Form from "../components/Form";
 

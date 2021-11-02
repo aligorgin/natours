@@ -49,7 +49,8 @@ module.exports = {
                 '0.75': '.3rem'
             },
             fontFamily: {
-                'lato': ['lato']
+                'lato': ['lato'],
+                'openSans':['Open Sans']
             },
             animation: {
                 fadeLeft: 'fadeLeft 1s ease-out',

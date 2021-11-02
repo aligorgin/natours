@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo2x from '../../../../public/natours-img/logo-green-2x.png';
+import logo2x from '../../../public/natours-img/logo-green-2x.png';
 import FooterList from "../components/FooterList";
 
 

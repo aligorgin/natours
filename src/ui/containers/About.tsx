@@ -3,9 +3,9 @@ import Paragraph from "../components/Paragraph";
 import Words from "../contents/Words";
 import HeaderHoverAnimate from "../components/HeaderHoverAnimate";
 import ButtonSecondary from "../components/ButtonSecondary";
-import nat1 from '../../../../public/natours-img/nat-1-large.jpg';
-import nat2 from '../../../../public/natours-img/nat-2-large.jpg';
-import nat3 from '../../../../public/natours-img/nat-3-large.jpg';
+import nat1 from '../../../public/natours-img/nat-1-large.jpg';
+import nat2 from '../../../public/natours-img/nat-2-large.jpg';
+import nat3 from '../../../public/natours-img/nat-3-large.jpg';
 import Image from "next/image";
 import AboutImg from "../components/AboutImg";
 

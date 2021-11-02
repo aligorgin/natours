@@ -1,7 +1,7 @@
 import HeadingTerritory from "./HeadingTerritory";
 import Image from "next/image";
-import nat8 from '../../../../public/natours-img/nat-8.jpg';
-import nat9 from '../../../../public/natours-img/nat-9.jpg';
+import nat8 from '../../../public/natours-img/nat-8.jpg';
+import nat9 from '../../../public/natours-img/nat-9.jpg';
 
 interface Props {
     header:string;

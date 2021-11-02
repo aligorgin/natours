@@ -1,7 +1,7 @@
 import Image from "next/image";
-import nat1 from '../../../../public/natours-img/nat-1-large.jpg';
-import nat2 from '../../../../public/natours-img/nat-2-large.jpg';
-import nat3 from '../../../../public/natours-img/nat-3-large.jpg';
+import nat1 from '../../../public/natours-img/nat-1-large.jpg';
+import nat2 from '../../../public/natours-img/nat-2-large.jpg';
+import nat3 from '../../../public/natours-img/nat-3-large.jpg';
 import clsx from "clsx";
 
 interface Props {

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import nat5 from '../../../../public/natours-img/nat-5.jpg';
-import nat6 from '../../../../public/natours-img/nat-6.jpg';
-import nat7 from '../../../../public/natours-img/nat-7.jpg';
+import nat5 from '../../../public/natours-img/nat-5.jpg';
+import nat6 from '../../../public/natours-img/nat-6.jpg';
+import nat7 from '../../../public/natours-img/nat-7.jpg';
 import Button from "./Button";
 import {useContext, useState} from "react";
 import {ModalContext} from "../providers/ModalContext";

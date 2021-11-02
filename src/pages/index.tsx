@@ -1,6 +1,6 @@
 import type {NextPage} from 'next';
 import Head from 'next/head';
-import App from "../ui/natours/App";
+import App from "../ui/App";
 
 const Home: NextPage = () => {
     return (
@@ -19,6 +19,6 @@ const Home: NextPage = () => {
     )
 }
 
-export default Home
+export default Home;
 
 

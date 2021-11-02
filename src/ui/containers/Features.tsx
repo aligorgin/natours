@@ -1,5 +1,5 @@
 import Image from "next/image";
-import nat4 from "../../../../public/natours-img/nat-4.jpg";
+import nat4 from "../../../public/natours-img/nat-4.jpg";
 import FeatureBox from "../components/FeatureBox";
 import {ClockIcon, GlobeIcon, HeartIcon, MapIcon} from "@heroicons/react/outline";
 import Words from "../contents/Words";

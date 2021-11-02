@@ -1,6 +1,6 @@
 import Image from "next/image";
-import heroPattern from '../../../../public/natours-img/hero.jpg';
-import logo from '../../../../public/natours-img/logo-white.png';
+import heroPattern from '../../../public/natours-img/hero.jpg';
+import logo from '../../../public/natours-img/logo-white.png';
 import Button from "../components/Button";
 
 
