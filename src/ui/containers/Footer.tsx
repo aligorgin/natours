@@ -30,7 +30,7 @@ export default function Footer(){
 
                     <div className='w-full lg:w-4/5 border-t-[1px] border-solid border-[#777] pt-[2rem] inline-block'>
                         <p>
-                            copyright &copy; by jonas schmedtmann for his course, exercitationem expedita fuga iusto minus molestias nobis optio quasi qui reiciendis sapiente similique suscipit vel vero vitae voluptatibus! Ducimus eos, molestiae quas repellat repudiandae rerum saepe sapiente! Ab accusantium, consectetur consequuntur culpa cumque cupiditate deleniti dolorem dolores enim inventore itaque non odit porro quis quisquam, reiciendis rem totam, veniam voluptate!
+                           exercitationem expedita fuga iusto minus molestias nobis optio quasi qui reiciendis sapiente similique suscipit vel vero vitae voluptatibus! Ducimus eos, molestiae quas repellat repudiandae rerum saepe sapiente! Ab accusantium, consectetur consequuntur culpa cumque cupiditate deleniti dolorem dolores enim inventore itaque non odit porro quis quisquam, reiciendis rem totam, veniam voluptate!
                         </p>
                     </div>
 
